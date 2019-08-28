@@ -2,6 +2,8 @@ package DataStructures;
 
 public class LinearSearch 
 {
+	//Time Complexity : O(n).
+	
 	//Logic:
 	//Start Traversing from Leftmost Element of array[] and One by One
 	//Compare X value with each element of array[].
@@ -9,7 +11,6 @@ public class LinearSearch
 	//If X value matches with an element, it will return Index.
 	//If X value does not match with any element, it will return -1.
 	
-	//Time Complexity of this program is O(n).
 	public static int linearSearch(int array[], int x)
 	{
 		int number = array.length;
