@@ -28,9 +28,9 @@ public class BinarySearch
  
 	public static void main(String args[]) 
 	{ 
-		int array[] = { 2, 3, 4, 10, 40 }; 
+		int array[] = {2, 3, 4, 10, 40}; 
 		int n = array.length; 
-		int x = 40; 
+		int x = 10; 
 		int result = binarySearch(array, 0, n, x); 
 		if (result == -1)
 		{
