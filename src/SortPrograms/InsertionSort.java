@@ -6,13 +6,13 @@ public class InsertionSort
     {  
         int arrayLength= array.length;
         
-        for(int i = 1; i < arrayLength; i++) 
+        for(int i=1; i<arrayLength; i++) 
         {  
         	int key = array[i];  
             int j = i-1;  
-            while((j > -1) && ( array [j] > key )) 
+            while((j>-1) && (array[j]>key)) 
             {  
-                array [j+1] = array [j];  
+                array[j+1] = array[j];  
                 j--;  
             }  
             array[j+1] = key;  
@@ -21,21 +21,22 @@ public class InsertionSort
        
     public static void main(String args[])
     {    
-        int[] array1 = {9,14,3,2,43,11,58,22};
+        int array[] = {9,14,3,2,43,11,58,22};
         
-        System.out.println("Before Insertion Sort");    
-        for(int i : array1)
+        System.out.println("Before Sorting Array");    
+        for(int arrayValues : array)
         {    
-            System.out.print(i+" ");    
+            System.out.print(arrayValues + " ");    
         }    
         System.out.println();    
             
-        insertionSort(array1); //Sorting Array using Insertion Sort.   
+        //Sorting Array using Insertion Sort.
+        insertionSort(array);    
            
-        System.out.println("After Insertion Sort");    
-        for(int i : array1)
+        System.out.println("After Sorting Array");    
+        for(int arrayValues : array)
         {    
-            System.out.print(i+" ");    
+            System.out.print(arrayValues + " ");    
         }    
     }    
 }    
