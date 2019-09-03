@@ -2,6 +2,10 @@ package SortPrograms;
 
 public class BubbleSort 
 {
+	//Bubble Sort and Quick Sort are types of Exchange Sort.
+	//Logic: 
+	//Compare Each Value from Unsorted Array
+	//Keep Replacing Or Changing Smallest Value in Ascending Order into Sorted Array.
 	public static void bubbleSort(int array[])
 	{
 		int arrayLength= array.length;

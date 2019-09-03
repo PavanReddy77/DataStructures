@@ -2,6 +2,10 @@ package SortPrograms;
 
 public class InsertionSort
 {  
+	//Logic:
+	//Take One By One Value from Unsorted Array.
+	//Insert into Sorted Array in Ascending Order.
+	
 	public static void insertionSort(int array[]) 
     {  
         int arrayLength= array.length;
